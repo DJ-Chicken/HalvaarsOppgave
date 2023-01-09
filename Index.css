@@ -17,6 +17,10 @@ li {
 	padding: 1.5rem !important;
 }
 
-.space {
-	justify-content: space-between;
+span {
+	color: #fc7049;
+}
+
+.Intro {
+	margin: auto;
 }
