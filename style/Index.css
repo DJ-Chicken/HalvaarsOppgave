@@ -1,3 +1,11 @@
+nav {
+	background-color: red !important;
+}
+
+body {
+	background-color: #fafafa !important;
+}
+
 a.active {
 	color: #fc7049 !important;
 }
@@ -43,9 +51,37 @@ h5 {
 	padding-top: 2rem;
 }
 
+button.Two:hover {
+	color: black !important;
+}
+
 button {
-	background-color: #fc7049;
 	border: none !important;
+}
+
+button.One {
+	background-color: #fc7049 !important;
+	border: none !important;
+}
+button.Two {
+	background-color: #fbece7 !important;
+	border: none !important;
+	color: black;
+	font-weight: 500;
+}
+
+.mySlides {
+	display: none;
+}
+.w3-left,
+.w3-right,
+.w3-badge {
+	cursor: pointer;
+}
+.w3-badge {
+	height: 13px;
+	width: 13px;
+	padding: 0;
 }
 
 @media only screen and (max-width: 600px) {
